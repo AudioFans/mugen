@@ -26,4 +26,4 @@ CUDA_VISIBLE_DEVICES=2 python scripts/ttm/generate_lm_gtzan.py
 
 ## Results
 
-<img src="assets/ttm/train_lm_gtzan.png" width="800">
+<img src="https://github.com/AudioFans/mugen/blob/main/assets/ttm/train_lm_gtzan.png" width="800">
