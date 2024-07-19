@@ -2,7 +2,7 @@ import numpy as np
 from torch.utils.data import Dataset, DataLoader
 
 from audidata.datasets import GTZAN
-from audidata.transforms import StartCrop
+from audidata.transforms import RandomCrop
 from audidata.samplers import InfiniteSampler
 
 
@@ -19,7 +19,7 @@ def train():
     root = "/datasets/gtzan"
 
     # Crop the first 10 seconds
-    audio_transform = StartCrop(
+    audio_transform = RandomCrop(
         clip_duration=clip_duration,
         sr=sr
     )
