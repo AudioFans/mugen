@@ -38,9 +38,9 @@ def generate(args):
     codec_dim = 1024
     device = "cuda"
 
-    genre = "jazz"  # "blues" | "classical" | "country" | "disco" | "hiphop" | "jazz" | "metal" | "pop" | "reggae" | "rock"
+    genre = "blues"  # "blues" | "classical" | "country" | "disco" | "hiphop" | "jazz" | "metal" | "pop" | "reggae" | "rock"
 
-    checkpoint_path = "/home/qiuqiangkong/my_code_202308-/mugen/checkpoints/train_lm_gtzan_accelerate/llama/step=10000.pth"
+    checkpoint_path = "/home/qiuqiangkong/my_code_202308-/mugen/checkpoints/train_lm_gtzan_accelerate/llama/step=100000.pth"
 
     # Codec
     codec_model = CodecWrapper.load_model()
