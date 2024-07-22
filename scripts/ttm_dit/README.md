@@ -23,7 +23,3 @@ CUDA_VISIBLE_DEVICES=3,4,5,6 accelerate launch --multi_gpu --num_processes 4 scr
 ```python
 CUDA_VISIBLE_DEVICES=2 python scripts/ttm/generate_dit_gtzan.py
 ```
-
-## Results
-
-<img src="https://github.com/AudioFans/mugen/blob/main/assets/ttm/train_lm_gtzan.png" width="800">
